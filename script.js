@@ -108,8 +108,8 @@ function playGame(playerMove) {
     
     document.querySelector(".result").innerHTML=`${result}`;
     document.querySelector(".moves").innerHTML=`You 
-    <img src="images/${playerMove}.png" alt="" class="icon"> 
-<img src="images/${computer}.png" alt="" class="icon">
+    <img src="images/${playerMove}.webp" alt="" class="icon"> 
+<img src="images/${computer}.webp" alt="" class="icon">
 Computer`;
     updateScore();
 
